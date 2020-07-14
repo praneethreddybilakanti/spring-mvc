@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring-servlet.xml&apos; to &apos;web.xml&apos;&#x0D;&#x0A;- Original project: &apos;FORM-TAG-RADIOBUTTON&apos;&#x0D;&#x0A;- Destination element: &apos;web.xml&apos;&#x0D;&#x0A;- Original element: &apos;spring-servlet.xml&apos;" description="Copy file" element1="WebContent/WEB-INF/spring-servlet.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1564731232338" target="/Interceptor-with -xml/WebContent/WEB-INF/web.xml" units="0" version="1.0"/>
+</session>

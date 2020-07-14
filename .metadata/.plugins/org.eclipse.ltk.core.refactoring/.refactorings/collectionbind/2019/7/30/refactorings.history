@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 7 elements from project &apos;collectionbind&apos;&#x0D;&#x0A;- Original project: &apos;collectionbind&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     abc.sql&#x0D;&#x0A;     addemployee.jsp&#x0D;&#x0A;     emperror.jsp&#x0D;&#x0A;     saveemployee.jsp&#x0D;&#x0A;     searchemployee.jsp&#x0D;&#x0A;     showemployee.jsp&#x0D;&#x0A;     showemployee.jsp.bak" description="Delete elements" element1="searchemployee.jsp" element2="showemployee.jsp" element3="saveemployee.jsp" element4="addemployee.jsp" element5="emperror.jsp" element6="abc.sql" element7="showemployee.jsp.bak" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="7" stamp="1564037424687" subPackages="false" version="1.0"/>
+</session>

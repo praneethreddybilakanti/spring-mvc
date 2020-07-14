@@ -1,0 +1,44 @@
+package com.praneeth;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+@Controller
+@SessionAttributes("username")
+public class StudentController {
+
+	@RequestMapping("/")
+	public String getRegisterForm()
+	{
+		
+		
+		return "register";
+	}
+	@RequestMapping("/login")
+	public String getSuccess(@ModelAttribute("student") Student student,Model m) throws Exception
+	{
+		if(student.getUsername().isEmpty())
+		{
+			 throw new NullPointerException();
+		}
+		if(student.getPassword().isEmpty())
+		{
+			 throw new Exception();
+		}
+		/*
+		 * while(rs.hasErrors()) { return "register"; }
+		 */
+m.addAttribute("username","praneeth");
+
+return "success";
+	}
+	@RequestMapping("/logout")
+public String getSession()
+{
+	
+	return "Logout";
+}
+	
+}
